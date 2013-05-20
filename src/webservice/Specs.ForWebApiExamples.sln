@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecsForWebApiExamples", "SpecsForWebApiExamples\SpecsForWebApiExamples.csproj", "{4FA34B72-B1B7-4999-BC4E-9A2EA47A4008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiExamples.Services", "WebApiExamples.Services\WebApiExamples.Services.csproj", "{F744EDB2-D500-404D-99A4-DEA58FB4139F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingsToTest", "ThingsToTest", "{FCD9E578-77DE-407A-9BA8-232B5208FEB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiExamples.Domain", "WebApiExamples.Domain\WebApiExamples.Domain.csproj", "{942C22AD-F72A-4F32-A1D1-39AA887A481C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FA34B72-B1B7-4999-BC4E-9A2EA47A4008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA34B72-B1B7-4999-BC4E-9A2EA47A4008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA34B72-B1B7-4999-BC4E-9A2EA47A4008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA34B72-B1B7-4999-BC4E-9A2EA47A4008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F744EDB2-D500-404D-99A4-DEA58FB4139F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F744EDB2-D500-404D-99A4-DEA58FB4139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F744EDB2-D500-404D-99A4-DEA58FB4139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F744EDB2-D500-404D-99A4-DEA58FB4139F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942C22AD-F72A-4F32-A1D1-39AA887A481C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942C22AD-F72A-4F32-A1D1-39AA887A481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942C22AD-F72A-4F32-A1D1-39AA887A481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942C22AD-F72A-4F32-A1D1-39AA887A481C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F744EDB2-D500-404D-99A4-DEA58FB4139F} = {FCD9E578-77DE-407A-9BA8-232B5208FEB0}
+		{942C22AD-F72A-4F32-A1D1-39AA887A481C} = {FCD9E578-77DE-407A-9BA8-232B5208FEB0}
+	EndGlobalSection
+EndGlobal
